@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "mock:llm": "node scripts/mock-llm.cjs"
   },
   "dependencies": {
     "@fontsource/cormorant": "^5.2.8",
